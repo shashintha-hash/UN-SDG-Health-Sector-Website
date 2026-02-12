@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Branding Header */
+.branding-header {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 5px solid rgb(2, 82, 15);
+}
+
+.logo {
+  height: 90px;
+  width: 105px;
+}
+
+.logo-container{
+  padding-right:20px ;
+  padding-left: 5px;
+  
+  float:left;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  background-color: #ddd;
+}
+
+
+.main-nav a.active {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.profile-container {
+  position: absolute;
+  top: 3%;
+  right: 0;
+
+
+}
+
+.profile{
+  
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;  
+  object-fit: cover;
+  border: 2px solid black;
+  
+  
+ 
+ 
+  
+  
+}
+
+.wrapper {
+  max-width: 1290px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-left:20px;
+  height:max-content;
+}
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <link rel="stylesheet" href="../css/splash_screen.css">
+</head>
+<body>
+    <div class="backgroundImage"></div>
+    <div class="heading">
+        <h1><u>HEALTH IS THE GREATEST WEALTH</u></h1>
+        <h3>We promise to bring your health into next level</h3>
+    </div>
+
+    <div class="members">
+        <p>Student 1: Sanidu</p>
+        <p>Student 2: Shashintha</p>
+        <p>Student 3: Binuri</p>
+        <p>Student 4: Nimsara</p>
+    </div>
+
+
+    <div class="loader"></div>
+
+    <script>
+        
+        let count = 4; // Set initial countdown value
+        let countdownInterval = setInterval(() => {
+            count--;
+            if (count === 0) {
+                clearInterval(countdownInterval);
+                window.location.href = ''; 
+            }
+        }, 1000);
+   </script>
+    
+
+    
+</body>
+</html>

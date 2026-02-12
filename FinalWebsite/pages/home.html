@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    html,body{
+      overflow: auto;
+    }
+    .hero{
+      
+      position:relative;
+      width: 100%;
+      height: 380px; 
+      overflow: hidden;
+      background-image: url('../images/b-image.jpg');  
+      background-size: cover;   
+      background-position: center;  
+      background-repeat: no-repeat; 
+    }
+
+    .hero h1{
+      text-align: left;
+      font-size:47px;
+      font-family:" Arial, Helvetica, sans-serif";
+      color:white;
+    }
+    
+    .hero p{
+      text-align: center;
+      font-size:25px;
+      font-family:sans-serif Arial, Helvetica, sans-serif;
+      color:white;
+      
+    }
+
+   
+
+    .next{
+      margin-left:1200px;
+      font-family: 'Times New Roman', Times, serif;
+      color:white;
+    }
+
+    .previous{
+     
+      font-family:'Times New Roman', Times, serif;
+      color:white;
+    }
+
+    div.gallery {
+     margin: 30px;
+     border: 2px solid black;
+     border-bottom: 4px solid black;
+     border-right: 3px solid black;
+     float: left;
+     width: 230px;
+     height:290px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     
+    }
+
+    div.gallery:hover {
+       border: 3px solid #1b0ce9;
+       transform: scale(1.05); 
+       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+   
+
+    .wrapper {
+      max-width: 1250px; 
+      margin: 0 auto; 
+      background-color:#adeff7;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+      border-radius: 10px;
+      height:400px;
+      margin-top:5px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+   
+    .gallery-image{
+      width:230px;
+      height:260px;
+    }
+
+    
+    div.desc{
+      font-family: sans-serif;
+      font-size: medium;
+      text-align: center;
+      color:darkgreen;
+      
+      
+    }
+  
+  </style>
+  </head>
+<body>
+  <div class="logo-container">
+    <img src="../images/logo.png" class="logo" alt="website logo">
+  </div>
+  
+  
+  <header class="branding-header">
+    <nav>
+      <ul class="main-nav">
+        
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="profile.html">User Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li class="profile-container">
+          <a href="profile.html">
+            <img src="../images/profileicon.jpg" class="profile" alt="Profile">
+          </a>
+        </li>
+      </ul>
+      
+      
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1><b>Welcome to Our SDG Website!</b></h1><br>
+    <p>our mission is to provide comprehensive health  care services that are<br> accessible,affordable and focus on patient-centered care.</p>
+    
+    <br> <p ><a href="index.html" class="previous">previous</a>
+    <a href="volunteer.html" 
+    class="next">next</a></p>
+  </section>
+  
+  <div class="wrapper">
+  <div class="gallery">
+    <a target="_blank" href="contentpage.html">
+      <img src="../images/student1.jpg" alt="wireframe" class="gallery-image" >
+    </a>
+    <div class="desc">Student 1 content page</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="content_ST2.htm">
+      <img src="../images/student2.jpg" alt="navigation and UI/UX"  class="gallery-image">
+    </a>
+    <div class="desc">Student 2 content page</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank"   href="content_ST3.html">
+      <img src="../images/student3.jpg" alt="data structures" class="gallery-image" >
+    </a>
+    <div class="desc">Student 3 content page</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="content_ST4.html">
+      <img src="../images/student4.jpg"  class="gallery-image" alt="" >
+     
+    </a>
+    <div class="desc">Student 4 content page</div>
+  
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+   &lt;&gt; © 2025 My SDG Website |
+  <a href="page_Editor_ST1.html">Page Editor ST1 |</a>
+  <a href="pageEditor_ST2.html">Page Editor ST2 |</a>
+  <a href="pageEditor_ST3.html">Page Editor ST3 |</a>
+  <a href="pageEditor_ST4.html">Page Editor ST4|</a>
+
+</footer>
+  
+</body>
+</html>

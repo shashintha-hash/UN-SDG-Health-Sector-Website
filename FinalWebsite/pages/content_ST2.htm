@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>st2content Page</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+  
+   .topic{
+    background-color: lightblue;
+    width:auto;
+    height:50px;
+    text-align:center;
+    padding-top:10px;;
+   }
+    
+   h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+   p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c3e50;
+    }
+
+    .images{
+      width:auto;
+      height:300px;
+    }
+
+    /* Reset Default Styles */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+
+   /* Layout Styling */
+   .container {
+    display: flex;
+   
+   }
+   
+
+   /* Sidebar Navigation */
+   .sidebar {
+    width: 240px;
+    height: 100vh; /* Full height */
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    left: 0 ;
+    top: 2% ;
+    margin-top:100px ;
+    font-size:18px;
+   }
+
+   .sidebar ul {
+    list-style: none;
+   }
+
+   .sidebar ul li {
+    margin-bottom: 15px;
+    }
+
+   .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    transition: background 0.3s,transform 0.2s;
+    border-radius: 5px;
+    }
+
+   .sidebar ul li a:hover {
+    background: #34495e;
+    transform:scale(1.05); /*slight zoom effect*/
+    }
+
+   /* Main Content */
+  .content {
+    margin-left: 150px; /* Leaves space for the sidebar */
+    padding: 10px;
+   }
+
+   /* Section Styling */
+   section {
+    padding: 50px 0;
+    border-bottom: 2px solid #ddd;
+    border-radius:5px;
+   }
+
+   section:hover{
+    background:#f5f7f8;
+   }
+
+   section:last-child {
+    border-bottom: none;
+   }
+
+  .top-button{
+    display:block;
+    width:150px;
+    padding:10px;
+    
+    text-align:center;
+    background: rgb(35, 143, 107);
+    color:white;
+    font-size:16px;
+    
+    
+    
+  }
+
+  .images{
+   margin-left:250px;
+   padding:10px;
+  }
+
+  </style>
+</head>
+<body>
+  <!-- Header 1: Logo and Description -->
+  <div class="logo-container header">
+    <img src="../images/logo.png" class="logo" alt="website logo">
+  </div>
+  <header class="branding-header header">
+    <nav>
+      <ul class="main-nav">
+        
+        <li><a href="home.html">Home</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="profile.html">User Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li class="profile-container">
+          <a href="profile.html">
+            <img src="../images/profileicon.jpg" class="profile" alt="Profile">
+          </a>
+        </li>
+      </ul>
+  </nav>
+  </header>
+
+ 
+
+
+    <div class="container">
+      <!-- Vertical Navigation Bar -->
+      <aside class="sidebar">
+          <ul>
+              <li><a href="#section1">Introduction</a></li>
+              <li><a href="#section2">Mental health overview</a></li>
+              <li><a href="#section3">Mental health disorders</a></li>
+              <li><a href="#section4">Mental health awareness</a></li>
+              <li><a href="#section4">Good practices for mental health</a></li>
+              <li><a href="#section5">Go to Top</a></li>
+          </ul>
+      </aside>
+  
+      <div class="content">
+        <div class="topic">
+          <h2>Mental Health Awareness</h2>
+        </div>
+        <!-- Section 1 -->
+        <section id="section1">
+          <h1>Introduction</h1><br>
+          <p>Even though mental health is just as important as physical health, it is often overlooked. It affects our regular feelings, ideas, and actions. Raising awareness of mental health promotes candid communication, reduces stigma, and improves wellbeing.</p>
+        </section>
+  
+        <!-- Section 2 -->
+        <section id="section2">
+          <h1>What is Mental Health</h1><br>
+          <p>Individual's emotional, psychological, and social well-being can refer to their mental health. It impacts how individuals handle stress, relate to others, and make decisions.</p><br>
+          <h3>Key aspects of mental health</h3><br>
+          <ul>
+            <li>Emotional balance.</li>
+            <li>Ability to manage stress.</li>
+            <li>Healthy relationships.</li>
+            <li>Productivity in daily life.</li>
+          </ul><br>
+          <img src="../images/cont1.jpg" class="images" alt="diverse group of people smiling, symbolizing the mental well-being">
+        </section>
+  
+        <!-- Section 3 -->
+        <section id="section3">
+          <h1>Common mental health disorders</h1><br>
+          <p>Many people experience these mental health challenges at some point of their life. So having an understanding about these situations is essential for seeking help.</p><br>
+  
+          <h3>Anxiety disorders</h3><br>
+          <ul>
+            <li>Persistent worry, fear, and nervousness.</li>
+            <li>Symptoms: Sweating, rapid heartbeat, panic attacks.</li>
+            <li>Example: Generalized anxiety disorder (GAD), Panic disorder.</li>
+          </ul><br>
+  
+          <h3>Depression</h3><br>
+          <ul>
+            <li>Feeling of sadness, loss of interest, and low energy.</li>
+            <li>Can affect sleep, appetite, and daily activities.</li>
+            <li>Fact: Over 280 million people worldwide suffer from depression.</li>
+          </ul><br>
+  
+          <h3>Post-traumatic stress disorder (PTSD)</h3><br>
+          <ul>
+            <li>Develops after experiencing trauma.</li>
+            <li>Symptoms: Flashbacks, nightmares, and severe anxiety.</li>
+          </ul><br>
+          <img src="../images/cont2.jpg" class="images" alt="depression">
+        </section>
+  
+        <!-- Section 4 -->
+        <section id="section4">
+          <h1>Importance of mental health awareness</h1><br>
+          <p>In the current world, we should always talk about mental health because awareness leads to action.</p><br>
+          <h3>Benefits of raising awareness</h3><br>
+          <ul>
+            <li>Reduces stigma: Helps people seek help without fear.</li>
+            <li>Encourages support: Builds stronger communities.</li>
+            <li>Prevents crisis: Early intervention saves lives.</li>
+          </ul>
+          <img src="../images/cont3.jpg" class="images" alt="It's okay to not be okay">
+        </section>
+  
+        <!-- Section 5 -->
+        <section id="section5">
+          <h1>How to improve mental health</h1><br>
+          <h3>Practicing self-care</h3><br>
+          <ul>
+            <li>Get enough sleep (7-9 hours daily).</li>
+            <li>Eat a balanced diet rich in nutrients.</li>
+            <li>Engage in physical activity (at least 30 mins daily).</li>
+          </ul><br>
+          <h3>Social Connections</h3><br>
+          <ul>
+            <li>Spend time with family and friends.</li>
+            <li>Join support groups or talk to someone you trust.</li>
+          </ul><br>
+          <h3>Seeking Professional Help</h3><br>
+          <ul>
+            <li>Therapists and counselors provide valuable guidance.</li>
+            <li>Helplines & Mental Health Services can support people in crisis.</li>
+          </ul>
+          <img src="../images/cont4.jpg" class="images" alt="Therapist talking to a patient">
+        </section>
+  
+        <!-- Section 6 -->
+        <section id="section6">
+          <h3>Click here:</h3>
+          <a href="#top" class="top-button">
+            Go to Top
+          </a>
+        </section>
+      </div>
+    </div>
+  
+    <footer>
+      © 2025 My SDG Website |
+      <a href="pageEditor_ST1.html">Page Editor ST1 |</a>
+      <a href="pageEditor_ST2.html">Page Editor ST2 |</a>
+      <a href="pageEditor_ST3.html">Page Editor ST3 |</a>
+      <a href="pageEditor_ST4.html">Page Editor ST4 |</a>
+    </footer>
+  
+  </body>
+  </html>

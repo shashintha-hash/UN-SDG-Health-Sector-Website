@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Health Comparison</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+    <style>
+        
+        .wrapper{
+            background-color:#adeff7 ;
+            height:800px;        }
+        
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background: #f9f9f9;
+        }
+        th, td {
+            padding: 14px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color:#4CAF50;
+            color: white;
+            position: relative;
+        }
+        tr:nth-child(even) { background-color: #e8f5e9; }
+        tr:hover { background-color: #c8e6c9; }
+
+        
+
+        /* Icons in Header */
+        .icon {
+            width: 85px;
+            height:55px;
+            
+            padding:10px;
+        }
+
+        /* Buttons */
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="../images/logo.png" class="logo" alt="website logo">
+  </div>
+  <header class="branding-header">
+    <nav>
+      <ul class="main-nav">
+        
+        <li><a href="home.html">Home</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="table.html" class="active">Table</a></li>
+        <li><a href="profile.html">User Profile</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li class="profile-container">
+          <a href="profile.html">
+            <img src="../images/profileicon.jpg" class="profile" alt="Profile">
+          </a>
+        </li>
+        
+      </ul>
+    
+    
+      
+      
+    </nav>
+  </header>
+  <div class="wrapper">
+    <h2 style="text-align:center;">Global Health & Well-Being: Country Comparison</h2>
+
+    <table>
+        <!-- Header Row with Icons -->
+        <tr>
+            <th rowspan="2">Country</th>
+            <th colspan="5">Healthcare Indicators</th>
+        </tr>
+        <tr>
+            <th>
+                 <p>Life Expectancy</p> 
+                <img src="../images/lifeExpectancy.jpg" alt="Life Expectancy" class="icon"> 
+                
+            </th>
+            <th>
+                <p>Healthcare Spending (% of GDP) </p>
+                <img src="../images/Healthcare_spending.jpg" alt="Healthcare Spending" class="icon"> 
+                
+            </th>
+            <th>
+                <p>Access to Clean Water (%) </p>
+                <img src="../images/Clean_water_ascess.jpg" alt="Clean Water Access" class="icon">
+                
+            </th>
+            <th>
+                <p>Mental Health Support </p>
+                <img src="../images/mental_health.jpg" alt="Mental Health Support" class="icon"> 
+               
+            </th>
+            <th>
+                <p>Hospital Beds per 1,000</p>
+                <img src="../images/Hospital_bed.jpg" alt="Hospital Beds" class="icon"> 
+                
+            </th>
+        </tr>
+
+        <!-- Country Data -->
+        <tr>
+          <td>Sri Lanka
+          </td>
+          <td>77</td>
+          <td>3.8%</td>
+          <td>91%</td>
+          <td>Available (Limited Services)</td>
+          
+          <td>3.6</td>
+          
+        </tr>
+        <tr>
+            <td>Norway</td>
+            <td>82.3</td>
+            <td>10.5%</td>
+            <td>99%</td>
+            <td>Free therapy & crisis centers</td>
+            <td>3.6</td>
+        </tr>
+        <tr>
+            <td> Canada</td>
+            <td>81.7</td>
+            <td>11.2%</td>
+            <td>98%</td>
+            <td> Public & private mental health care</td>
+            <td>2.5</td>
+        </tr>
+        <tr>
+            <td> Germany</td>
+            <td>80.9</td>
+            <td>11.7%</td>
+            <td>99%</td>
+            <td> Strong mental health policies</td>
+            <td>8.3</td>
+        </tr>
+        <tr>
+            <td> Japan</td>
+            <td>84.6</td>
+            <td>10.9%</td>
+            <td>98%</td>
+            <td>National mental health programs</td>
+            <td>13.0</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>70.8</td>
+            <td>3.8%</td>
+            <td>92%</td>
+            <td> Limited access in rural areas</td>
+            <td>0.5</td>
+        </tr>
+        <tr>
+            <td> Brazil</td>
+            <td>75.5</td>
+            <td>9.2%</td>
+            <td>93%</td>
+            <td>Expanding mental health services</td>
+            <td>2.3</td>
+        </tr>
+        <tr>
+            <td> Nigeria</td>
+            <td>54.3</td>
+            <td>3.7%</td>
+            <td>68%</td>
+            <td> Mental health services scarce</td>
+            <td>0.3</td>
+        </tr>
+        <tr>
+            <td> USA</td>
+            <td>77.0</td>
+            <td>16.8%</td>
+            <td>99%</td>
+            <td> Private & Public mental health options</td>
+            <td>2.8</td>
+        </tr>
+
+        <!-- Merged Cell Row -->
+        <tr>
+            <td colspan="5" style="font-weight:bold; background-color:#4CAF50; color:white;">
+                Learn More About Global Health Initiatives
+            </td>
+            <td><button class="btn">Explore</button></td>
+        </tr>
+    </table>
+  </div>
+    <footer>
+       &lt;&gt;© 2025 My SDG Website |
+      <a href="pageEditor_ST1.html">Page Editor ST1 |</a>
+      <a href="pageEditor_ST2.html">Page Editor ST2 |</a>
+      <a href="pageEditor_ST3.html">Page Editor ST3 |</a>
+      <a href="pageEditor_ST4.html">Page Editor ST4|</a>
+  
+    </footer>
+</body>
+</html>
+
+
+

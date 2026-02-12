@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Student - provide your student name</title>
+
+    <link rel="stylesheet" href="../css/page_editor.css"> <!-- External CSS link -->
+
+</head>
+<body>
+    
+    <!-- Update the header and the footer to be consistent with the rest of the pages you implemented -->
+
+    <header id="top">
+        <h1>Good Health and Well Being</h1>
+    </header>
+
+    <section class="stud">
+        <h2>S.S.N.Samarasinghe, student 1</h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+
+            <!-- Update those first three sections for the pages you were responsible to implement -->
+
+            <section>
+                <h2 id="splash">Splash Page</h2>
+                    <h3>Technical Description</h3>
+                        <p>I created splash screen using HTML and JavaScript.JavaScript help me to add countdown to the home page.</p> 
+                        <p>&lt;h1&gt;&lt;u&gt;HEALTH IS THE GREATEST WEALTH&lt;/u&gt;&lt;/h1&gt;</p>
+                        <p>&lt;h3&gt;We promise to bring your health into next level&lt;/h3&gt;</p>
+
+                        <p>&lt;div class="loader"&gt;&lt;/div&gt;</p>
+
+                        <p>&lt;script&gt;</p>
+                        
+                        <p>let count = 4; // Set initial countdown value</p>
+                        
+                        <p>let countdownInterval = setInterval(() =&gt; {</p>
+                        
+                        <p>    count--;</p>
+                        
+                        <p>    if (count === 0) {</p>
+                        
+                        <p>        clearInterval(countdownInterval);</p>
+                        
+                        <p>        window.location.href = '';</p>
+                        
+                        <p>    }</p>
+                        
+                        <p>}, 1000);</p>
+                        
+                        <p>&lt;/script&gt;</p>
+                        
+                    
+                    <h3>Accessibility</h3>
+                        <p>
+                            I used &lt;h1&gt; and &lt;h3&gt; tags for headings, which helps screen readers understand the structure. 
+                            The &lt;html lang="en"&gt; tag tells screen readers the content is in Englis and making it easier for them to read it correctly and get understand perfectly.
+                        </p>
+                        <p>
+                            JavaScript implements a 4-second countdown that may immediately redirect users, which may be too quick for some people, those using screen readers for example. 
+                            Solve this by adding a Pause button. For example, &lt;button id="pause"&gt; Pause &lt;button&gt; could be added to the HTML, while in the script, the countdown is paused on click. 
+                            This will then give users control over the timing. 
+                        </p>
+
+                        <p>
+                            The &lt;div class="backgroundImage"&gt; and &lt;div class="loader"&gt; are visual elements that do not give any information to screen readers. 
+                            But if they just serve aesthetic purposes—so be it, leave them like that. 
+                            
+                        </p>
+
+                        
+                    
+                    <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation1.html#splashVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                    <h3>Link to the page</h3>
+                        <p><a href="splash_screen.html">Include a link to the actual page you describe.</a></p>
+            </section>
+
+            <section>
+                <h2 id="volunteer">Volunteer Page</h2>
+                    <h3>Technical Description</h3>
+                        <p>&lt;html lang="en"&gt; - Specifies the language of the document as English, important for accessibility tools like screen readers.</p>
+                        <p>&lt;div class="logo-container"&gt; - A container for the logo image to group it with other related elements.</p>
+                        <p>&lt;link rel="stylesheet" href="style.css"&gt; - Links to another custom CSS stylesheet for further design.</p>
+                        <p>&lt;p class="mainheading"&gt;&lt;b&gt;Volunteer Page&lt;/b&gt;&lt;/p&gt; - A paragraph that serves as the main heading for the page, with bold text for emphasis.</p>
+                        <p>&lt;button class="reviewbutton"&gt;see all reviews&lt;/button&gt; - A button to view all reviews.</p>
+                        <p>&lt;p&gt;© 2025 MY SDG WEBSITE | &lt;a href="#"&gt;Page Editor ST1&lt;/a&gt; | ...&lt;/p&gt; - Displays footer content with links to page editors.</p>
+                        <p>&lt;p class="ratings"&gt;9.4/10&lt;/p&gt; - Displays a rating score for the page or project.</p>
+                    <h3>Accessibility</h3>
+                        <p>
+                            The textarea element includes a placeholder that guides users on what to type. 
+                            This is helpful for all users, including those who may have difficulty figuring out what kind of input is required.
+                        </p>
+
+                        <p>
+                            The alt attribute is basically a textual description for certain images, like logos and profile pictures, 
+                            that helps users who rely on screen readers and the visually impaired to comprehend what the image is really all about in spite of their visual impairment.
+                            Thus they will understand what this is in reality even if they cannot view it. 
+                        </p>
+                             
+                        <p>
+                            Information on the pages is subdivided into well-organized sections such as Volunteer Projects and Reviews, allowing for easy navigation among different parts of the pages. 
+                            The combination of these with some space and well-aligned elements would further enhance access to the content being looked for by users efficiently.
+                            Accessibility is addressed by properly utilizing HTML elements, providing clear text descriptions, and applying 
+                            a structured layout so that the page is easier for people with visual, motor, or cognitive impairments to work with.
+                        </p>
+
+                    <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                        <p><a href="validation1.html##volunteerVal">Include a link to the validation page</a>, use the marker to jump to the corresponding section of the validation page.</p> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                        
+                    <h3>Link to the page</h3>
+                        <p><a href="volunteer.html">Include a link to the actual page you describe.</a></p>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page</h2>
+                    <h3>Technical Description</h3>
+                    <p>&lt;html lang="en"&gt;: Specifies the document's language (English), important for accessibility and search engines.</p>
+
+                    <p>&lt;meta charset="UTF-8"&gt;: Ensures proper encoding for special characters.</p>
+                    
+                    <p>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Makes the page responsive by adjusting it for different screen sizes.</p>
+                    
+                    <p>&lt;header&gt; &amp; &lt;nav&gt;: Contains the logo and navigation, essential for page structure and user navigation.</p>
+                    
+                    <p>&lt;section&gt;: Organizes content into distinct sections for better readability and accessibility.</p>
+                    
+                    <p>&lt;a href="#top"&gt;: Provides anchor link functionality, allowing users to return to the top of the page.</p>
+                    
+                    <p><strong>CSS:</strong></p>
+                    
+                    <p><strong>.firstimage:</strong></p>
+                    <p>background-image: Sets a background image for the section.</p>
+                    <p>width: 100% and height: 500px: Ensures the image covers the section and maintains a consistent height.</p>
+                    <p>border-radius: 30px: Rounds corners for a visually appealing look.</p>
+                    
+                    <p><strong>.mainHeading:</strong></p>
+                    <p>text-align: center: Centers the main heading for balance.</p>
+                    <p>background-color: Adds a branded color background to the heading.</p>
+                    
+                    <p><strong>.go-top:</strong></p>
+                    <p>position: fixed: Keeps the "Go to top" button visible while scrolling.</p>
+                    <p>background-color and color: white: Ensures the button stands out and is easily readable.</p>
+                    
+                    <p><strong>Hover Effects:</strong></p>
+                    <p>.go-top:hover changes text color when hovering to provide user feedback.</p>
+                    
+
+                    <h3>Accessibility</h3>
+                        <p>The HTML structure of the page prioritizes accessibility to ensure an inclusive user experience. The html lang="en" tag specifies the document's language, helping screen readers pronounce content correctly. The &lt;img&gt; tags include &lt;alt&gt; attributes, providing descriptions for images to assist visually impaired users. 
+                        Semantic tags like &lt;header&gt;, &lt;navr&gt;, &lt;section&gt;, and &lt;footerr&gt; enhance the organization of content, making it easier for assistive technologies to interpret the page layout. Interactive elements, 
+                        such as the a href="#top" link, allow users to navigate back to the top of the page, offering greater convenience. Additionally, large, bold text and hover effects on buttons improve readability and user interaction, particularly for those with visual or motor impairments. 
+                        These techniques collectively create a more accessible and user-friendly website.</p>
+
+                    <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                    <p><a href="validation1.html#contentVal">content_validation page</a>, use the marker to jump to the corresponding section of the validation page.</p>
+
+
+                        
+                    <h3>Link to the page</h3>
+                        <p><a href="contentpage.html">actual content page.</a></p>
+            </section>
+
+            <section>
+                <h2 id="challenge"> Challenges and Lessons Learned</h2>
+                    <p>One challenge I face when putting a countdown timer on the splash page was to make sure it was working for all users especially those using screen readers; having an auto-redirection after 4 seconds seemed a little rushed for some. Therefore, I provided a pause button for the user to control the countdown. 
+                        In addition, I had to ensure that the pause button would be clear and easy for everyone to use. This experience taught me how important it is to give control over time-sensitive features to users, especially in light of accessibility.
+                        I made sure that buttons and text were easy to see and use when styling the page. For instance, I made the "Go to top" button stand out more with a hover effect, but I also had to think about color choices to make sure they were clear for colorblind users. Testing color contrast was a lesson I learned.
+                        And I learned how position attributes are working.
+                    </p> 
+
+            </section>
+
+            <section>
+                <h2 id="compliance"> Compliance</h2>
+                    <p>In line with Janet regulations and web standards, my web pages focused on accessibility, security, content organization, and usability. 
+                        To enhance screen reader readability, I have implemented semantic HTML tagging such as &lt;header&gt;, &lt;nav&gt;, and &lt;section&gt;. 
+                        For the visually impaired audience, I made sure that all images have an alt tag. I also made sure that it is responsive, adding a &lt;meta&gt; tag, and tested the page on several devices as well as having color contrast for reading purposes. 
+                        The security of user data was taken into consideration, and I made sure that links are done properly. 
+                        I also validated my code via W3C tools to make sure that my syntax was right and compliant with their standards and thus we could ensure that the pages would meet the required web standards. 
+                    </p> 
+
+                    
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2>
+                <p>Provide links to resources you used following a consistent format (e.g., APA, MLA, or a simplified style). For example:<br><br>
+                    <ul class="ref">
+                        <li>iStock (2025) <i>iStock.</i> Available at: <a href="#">https://www.istockphoto.com/</a> (Last accessed: 11 Feb 2025).</li>
+                        <li>Duckett, J., 2011. HTML and CSS: Design and Build Websites,<i>John Willey&Sons. Inc. Indianappolis.</i></li>
+                        <li>FREEPIK (2025) <i>Blood donation symbol with hand blood bag.</i> Available at: <a href="#">https://www.freepik.com</a> (Last accessed: 08 March 2025).</li>
+                        <li>Kansas Health Institute (2025) <i>Survey of Kansas Legislators and Commissioners on Public Health Awareness and Attitudes.</i> Available at: <a href="#">https://www.khi.org/articles/survey-of-kansas-legislators-and-commissioners-on-public-health-awareness-and-attitudes/"></a> (Last accessed: 07 March 2025).</li>
+                        <li>Pinterest (2025) <i>Image Pin on Pinterest.</i> Available at: <a href="#">https://in.pinterest.com/pin/607211962255563185/</a> (Last accessed: 07 March 2025).</li>
+                        <li>Daily Trust (2025) <i>Kathryn Bodge: Token Pioneering Humanitarian Aid in Conflict Zones.</i> Available at: <a href="#">https://dailytrust.com/kathryn-bodge-token-pioneering-humanitarian-aid-in-conflict-zones</a> (Last accessed: 07 March 2025).</li>
+                        <li>Storetec (2025) <i>Benefits of Digitisation for NHS Trusts.</i> Available at: <a href="#">https://storetec.net/blog/benefits-of-digitisation-for-nhs-trusts</a> (Last accessed: 07 March 2025).</li>
+                        <li>Shutterstock (2025) <i>Sleeping Teenage Boy.</i> Available at: <a href="#">https://www.shutterstock.com/search/sleeping-teenage-boy</a> (Last accessed: 07 March 2025).</li>
+
+
+
+
+
+
+                        
+                            
+                    </ul>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3>
+
+        <!-- Customize this to the role you undertook. Keep only the list items you were responsible to develop, delete the rest -->
+            <ul class="top-level-ul">
+                <!-- Keep only the list items you were responsible to develop, delete the rest and update the links to the corresponding markers -->
+                <li>Student 1</li>
+                    <ul> 
+                        <li><a href="#splash">Splash page</a></li>
+                        <li><a href="#volunteer">Volunteer page</a></li>
+                        <li><a href="#content">Content page</a></li>
+                    </ul>
+                
+            <ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                <li><a href="#compliance">Compliance</a></li>
+                <li><a href="#ref">References</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Replace the footer with your teams' website footer</p>
+    </footer>
+</body>
+</html>

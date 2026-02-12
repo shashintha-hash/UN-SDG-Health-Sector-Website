@@ -1,0 +1,53 @@
+.firstimage{
+    background-image: url('../images/sleeping.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    border-radius: 30px;
+    
+}
+
+.firstimage p{
+    font-family: sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    top: 100px;
+    position: relative;
+    left: 20px;
+
+}
+
+.mainHeading{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background-color: #3e85ff;
+    
+}
+
+li{
+    font-size: 110%;
+}
+
+.go-top {
+    
+    position: fixed;  /* Makes the button stay in place when scrolling */
+    bottom: 20px;     /* Adjusts distance from the bottom */
+    right: 20px;      /* Adjusts distance from the right */
+    background-color: #3e85ff; /* Adds a background color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 110%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+  .go-top:hover {
+    color: #0056b3;
+    
+  }
+
+ 
