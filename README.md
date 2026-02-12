@@ -1,0 +1,1 @@
+A responsive informational website aligned with UN Sustainable Development Goal 3: Good Health and Well-Being. Built using HTML, CSS, and JavaScript, the project focuses on clean design, accessibility, and interactive features to present key health sector topics.
